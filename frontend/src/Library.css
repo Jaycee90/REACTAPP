@@ -1,0 +1,101 @@
+
+/* Style for the overall container */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    
+  }
+  
+  /* Style for the header */
+  .header {
+    height: 20%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 2px solid #150303;
+    background:  linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(42,42,103,1) 53%, rgba(226,100,172,1) 100%);
+}
+  
+  /* Style for the main content area (left and right columns) */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the left column */
+  .left-column {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #150303;
+    margin-right: 10px;
+  }
+  
+  /* Style for the right column */
+  .right-column {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #150303;
+    margin-left: 10px;
+  }
+
+  /* Style for the footer */  
+  .footer {
+    height: 20%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border: 2px solid #150303;
+    background:  linear-gradient(42deg, rgba(2,0,36,1) 0%, rgba(42,42,103,1) 53%, rgba(226,100,172,1) 100%);
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar h4 {
+  margin: 0;
+}
+
+.nav-bar li{
+  display: inline-block;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  width: 150px;
+  text-align: center;
+  background-color: rgba(226,100,172,1);
+}
+
+.nav-bar li a:hover {
+  background-color: #3498db;
+  color: rgb(224, 209, 209);
+}
+
+ 
